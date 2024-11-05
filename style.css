@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=WindSong:wght@400;500&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.bold {
+    font-weight: 600;
+
+}
+
+
+.bgYellow {
+    background-color: #f3c827;
+    
+}
+
+/* header */
+.header {
+    background-color: aquamarine;
+    padding: 5px 15px;
+}
+
+.panier {
+    color: #f3c827;
+    font-size: 30px;
+}
+
+.hero {
+    height: 100vh;
+}
+
+.container {
+    background-color: #c52626;
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+}
+
+.navHeader {
+    background-color: white;
+    width: 50%;
+}
+
+.hero h2 {
+    font-family: "WindSong", "cursive";
+    font-size: 130px;
+}
+
+.btn{
+    background-color: #f66909;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    width: fit-content;
+}
