@@ -20,7 +20,7 @@ li {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .spaceBetween {
@@ -53,6 +53,12 @@ li {
     font-size: 30px;
 }
 
+.navHeader {
+    background-color: white;
+    width: 50%;
+}
+
+/* HERO */
 .hero {
     height: 100vh;
 }
@@ -62,11 +68,6 @@ li {
     max-width: 1000px;
     margin: auto;
     width: 100%;
-}
-
-.navHeader {
-    background-color: white;
-    width: 50%;
 }
 
 .hero h2 {
@@ -87,4 +88,39 @@ li {
 .width45{
 width: 45%;
 }
+
+
+/* ENGAGEMENT */
+
+.engagement h3 {
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Inter", sans-serif;   
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.engagement p{
+    padding-top: 20px;
+}
+
+
+/* BIENFAIT */
+.Bienfaits {
+ padding-left: 40px;
+}
+
+.Bienfaits h3{
+    width: 100%;
+    padding-top: 30px ;
+    margin-bottom: 20px;
+}
+
+.width267{   
+   background-color: #f3c827;
+width: 30%;
+}
+
+
 
